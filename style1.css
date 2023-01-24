@@ -9,12 +9,34 @@
 
 }
 
+.button1:active {
+    color: #a5f7e8;
+    height: 22px;
+    width: 100px;
+    border-color: #a5f7e8;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
 .button2 {
     height: 30px;
     width: 30px;
     color: white;
     background-color: #14dab6;
     border-color: #14dab6;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    font-size: larger;
+}
+
+.button2:active {
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: #a5f7e8;
+    border-color: #a5f7e8;
     border-style: solid;
     border-radius: 50%;
     border-width: 2px;
@@ -28,6 +50,17 @@
     background-color: #2866c0;
     border-width: 1px;
     box-shadow: 2px 2px black;
+    font-size: small;
+    font-weight: light;
+}
+
+.button3:active {
+    width: 150px;
+    height: 25px;
+    color: #e9eaeb;
+    background-color: #528de4;
+    border-width: 1px;
+    box-shadow: 0px 0px black;
     font-size: small;
     font-weight: light;
 }
